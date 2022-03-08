@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gatsl/AndroidStudioProjects/ShoppingList/app/src/main/res/drawable/ic_add.xml" value="0.262" />
         <entry key="..\:/Users/gatsl/AndroidStudioProjects/ShoppingList/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gatsl/AndroidStudioProjects/ShoppingList/app/src/main/res/layout/item_shop_disabled.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gatsl/AndroidStudioProjects/ShoppingList/app/src/main/res/layout/item_shop_enabled.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
