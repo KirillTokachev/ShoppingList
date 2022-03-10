@@ -13,7 +13,7 @@ object ShopListRepositoryImpl : ShopListRepository {
     private var autoIncrementId = 0
 
     init {
-        for (i in 0 until 100) {
+        for (i in 0 until 10) {
             val item = ShopItem("Name: $i", i, Random.nextBoolean())
             addShopItem(item)
         }
@@ -42,8 +42,10 @@ object ShopListRepositoryImpl : ShopListRepository {
         return shopListLiveDate
     }
 
-    override fun getShopItem(id: Int): ShopItem {
-        return shopList.find { it.id == id } ?: throw NullPointerException()
+    override fun getShopItem(shopItemId: Int): ShopItem {
+        return shopList.find {
+            it.id == shopItemId
+        } ?: throw RuntimeException("Element with id $shopItemId not found")
     }
 
     private fun updateList() {
